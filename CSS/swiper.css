@@ -1,0 +1,19 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  padding: 50px;
+}
+.popular-movie,
+.top-rated,
+.upcoming-movie {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 30px;
+}
+
+.swiper-slide h1 {
+  color: #fff;
+  margin: 15px 0px 40px 0px;
+}

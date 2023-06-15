@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Watch</title>
+    <!-- CSS linked -->
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/modal.css">
+    <link rel="stylesheet" href="CSS/swiper.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <!-- swiperjs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    
+  </head>
+  <body>
+   
+    <header>
+      <form>
+        <label for="movie">Movie Flix</label>
+        <input type="text" name="movie" placeholder="Enter a movie" id="movie-search">
+      </form>
+    </header>
+
+    <main>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <h1>Popular Movies</h1>
+          <div class="popular-movie"></div>
+        </div>
+        <div class="swiper-slide">
+          <h1>Top Rated</h1>
+          <div class="top-rated"></div>
+        </div>
+        <div class="swiper-slide">
+          <h1>Upcoming Movies</h1>
+          <div class="upcoming-movie"></div>
+        </div>     
+      </div>
+    </div>
+
+    <dialog class="modal">
+      <div class="trailer-container"></div>
+      <div class="movie-info">
+        <h1 class="modal-title"></h1>
+        <p class="overview"></p>
+        <p class="modal-genres"></p>
+        <p> <span class="gray">Release Date: </span> <span class="release-date"></span> </p>
+        <p> <span class="gray">Popularity: </span> <span class="popularity"></span> </p>
+      </div>     
+      <div class="modal-close-container">
+        <button class="modal-close">Close</button>
+      </div>
+    </dialog>
+    </main>
+
+    <footer>
+      <div>
+        <p>&copy; 2023 All rights reserved.</p>
+        <p>This movie website is made by Christ Narvarte using TMDB API</p>
+
+        <div class="socials">
+          <div> <a href="https://github.com/kurays015" target="_blank"> <img title="Github" src="icons/github.svg"> </a>
+          </div>
+          <div>
+            <a href="https://www.twitter.com/ChristNarvarte" target="_blank"> <img title="Twitter" src="icons/twitter.svg">  </a>
+          </div>
+          <div>
+            <a href="https://www.facebook.com/illidanstormrageee" target="_blank"> <img title="Facebook" src="icons/facebook.svg"> </a>   
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="javascript/swiper.js"></script>
+    <script src="javascript/upcoming.js"></script>
+    <script src="javascript/Top-Rated.js"></script>
+    <script  src="javascript/popular.js"></script>
+    <script  src="javascript/fetch-movies.js"></script>
+    
+  </body>
+</html>

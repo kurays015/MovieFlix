@@ -1,0 +1,281 @@
+@media screen and (max-width: 767px) {
+
+  /* movies cards starts */
+  .popular-movie,
+  .top-rated,
+  .upcoming-movie {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+  }
+  .popular-card img,
+  .top-rated-card img,
+  .upcoming-card img  {
+    width: 100px;
+    height: 100%;
+    
+  }
+  .popular-card,
+  .top-rated-card,
+  .upcoming-card {
+    width: 50%;
+  }
+  /* movies cards ends */
+
+  /* footer styles starts */
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #858181;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.6rem;
+    background-color: #222;
+    padding: 8px 5px;
+  }
+
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+    
+  }
+  .socials img {
+    width: 20px;
+  }
+  /* footer styles ends */
+
+  /* swiper styles starts */
+  main {
+    margin: 0;
+    padding: 0;
+  }
+  .swiper-slide {
+    padding: 0px 30px 30px 30px;
+  }
+  /* swiper styles ends */
+
+  /* modal styles starts */
+  .modal {
+    width: 70%;
+  
+  }
+  .trailer-container {
+    height: auto;
+  }
+  .trailer-container iframe {
+    height: 300px;
+
+  }
+  /* modal styles ends */
+
+}
+
+@media screen and (max-width: 677px) {
+  /* movies cards starts */
+  .popular-movie,
+  .top-rated,
+  .upcoming-movie {
+    grid-template-columns: repeat(4, 100px);
+    justify-content: center;
+  }
+  .popular-card,
+  .top-rated-card,
+  .upcoming-card {
+    width: 50%;
+  }
+  /* movies cards ends */
+
+  /* swiper style starts */
+  .swiper-slide h1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  /* swiper style ends */
+
+  /* modal styles starts */
+  .modal {
+    width: 80%;
+  }
+  .trailer-container {
+    height: auto;
+  }
+  .trailer-container iframe {
+    height: 300px;
+  }
+
+  .modal-title {
+    font-size: 1.3rem;
+  }
+  .movie-info p,
+  .gray {
+    font-size: 0.8rem;
+  }
+  .release-date,
+  .popularity {
+    font-size: 0.7rem;
+  }
+
+}
+@media screen and (max-width: 516px) {
+    /* movies cards starts */
+  .popular-movie,
+  .top-rated,
+  .upcoming-movie {
+    grid-template-columns: repeat(3, 100px);
+    justify-content: center;
+    gap: 20px;
+    
+  }
+  .popular-card,
+  .top-rated-card,
+  .upcoming-card {
+    width: 50%;
+  }
+
+  .popular-card img,
+  .top-rated-card img,
+  .upcoming-card img  {
+    width: 100px;
+
+  }
+  /* movies cards ends */
+
+  /* swiper style starts */
+  .swiper-slide h1 {
+    text-align: center;
+  }
+  .swiper-slide {
+    padding: 0px 0px 30px 0px;
+  }
+  /* swiper style ends */
+
+  /* modal styles starts */
+  .modal {
+    width: 90%;
+  }
+  .trailer-container {
+    height: auto;
+  }
+  .trailer-container iframe {
+    height: 200px;
+  }
+
+  .modal-title {
+    font-size: 1rem;
+  }
+  .overview {
+    margin-bottom: 10px;
+  }
+  .movie-info p,
+  .gray {
+    font-size: 0.8rem;
+    line-height: 20px
+  }
+  .release-date,
+  .popularity {
+    font-size: 0.7rem;
+  }
+  /* modal styles ends */
+
+
+}
+@media screen and (max-width: 360px) {
+    /* movies cards starts */
+  .popular-movie,
+  .top-rated,
+  .upcoming-movie {
+    grid-template-columns: repeat(2, 140px);
+    justify-content: center;
+    gap: 15px;
+
+
+  }
+  .popular-card,
+  .top-rated-card,
+  .upcoming-card {
+    width: 50%;
+  }
+
+  .popular-card img,
+  .top-rated-card img,
+  .upcoming-card img  {
+    width: 140px;
+
+  }
+  /* movies cards ends */
+
+  /* swiper style starts */
+  main {
+    margin: 0px 20px;
+  }
+
+  .swiper-slide h1 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .swiper-slide {
+    padding: 10px 0px 30px 0px;
+  }
+  /* swiper style ends */
+
+
+  /* modal styles starts */
+  .modal {
+    width: 90%;
+  }
+  .trailer-container {
+    height: auto;
+  }
+  .trailer-container iframe {
+    height: 180px;
+  }
+
+  .modal-title {
+    font-size: 1rem;
+  }
+  .movie-info p,
+  .gray {
+    font-size: 0.7rem;
+  }
+  .release-date,
+  .popularity {
+    font-size: 0.6rem;
+  }
+  /* modal styles ends */
+
+  form input {
+    height: 30px;
+    width: 90%;
+    margin-top: 5px;
+  }
+  .popular-card:hover,
+  .top-rated-card:hover,
+  .upcoming-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
+
+
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
