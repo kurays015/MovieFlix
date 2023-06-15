@@ -1,5 +1,8 @@
 .modal {
-  margin: 30px auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
   width: 1000px;
   background-color: #181818;
   border: none;
