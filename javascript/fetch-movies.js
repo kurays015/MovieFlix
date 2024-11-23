@@ -1,5 +1,5 @@
 const base_url = 'https://api.themoviedb.org/3'
-const api_key = '5e8b9e4f3d246ecf770aa76bb470e4c8'
+const api_key = ''
 const form = document.querySelector('form')
 const movieSearch = document.querySelector('#movie-search')
 const categories = document.querySelectorAll('.swiper-slide h1')
